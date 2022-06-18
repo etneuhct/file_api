@@ -156,3 +156,6 @@ dupdata.json
 data.json
 /statics
 feed2.py
+
+
+media/*

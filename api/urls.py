@@ -20,7 +20,7 @@ from rest_framework.routers import DefaultRouter
 from file_storage.views import StoredFileViewSet
 
 router = DefaultRouter()
-router.register('stored-file', StoredFileViewSet, basename='stored-file')
+router.register('', StoredFileViewSet, basename='stored-file')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
